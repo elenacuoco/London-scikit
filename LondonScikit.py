@@ -23,7 +23,7 @@ def report(grid_scores, n_top=3):
         print("")
 
 if __name__ == '__main__':
- os.chdir('/home/cuoco/workspace/kaggle/scikit/2014')
+ os.chdir('./kaggle/scikit/2014')
 
  train_data = pd.read_csv('../data/train.csv', header=None)
  train_labels = pd.read_csv('../data/trainLabels.csv', header=None)
